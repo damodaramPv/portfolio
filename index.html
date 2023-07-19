@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./public/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section id="hero">
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col d-flex justify-content-center align-items-center"><div class="hero-content d-flex flex-column"><div><p class="title-line">Hi, I'm Damodaram </p></div>
+                   <div><p class="sub-line">A Student who likes to learn more...</p></div></div></div>
+                <div class="col d-flex justify-content-center"><img src="./assets/images/Hello.png" alt="profile avatar" class="profile-img"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="education">
+
+        <div class="container">
+            <div class="row"><div class="col title">Education</div></div>
+            <div class="row"><div class="col">
+                <ul>
+                    <li class="education-list duration"><span style="font-weight: bold;">2018 - 2019 - High School</span><br>
+                        Narayana Olympiad High School BSEAP</li>
+                    <li class="education-list duration"><span style="font-weight: bold;">2019 - 2021 - Junior College</span><br>
+                        Narayana Intermediate Junior College BIEAP</li>
+                    <li class="education-list duration"><span style="font-weight: bold;">2021 - Present</span><br>
+                        Bachelor of Technology in Electrical Engineering - 3rd Year<br>
+                        Indian Institute of Technology Bhilai</li>
+                </ul></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about-me">
+
+        <div class="container">
+            <div class="row"><div class="title">About Me</div></div>
+            <div class="row about-content"><div class="col"><img src="./assets/images/myPhoto.jpeg" alt="my photo" class="my-photo"><p class="about-text">I am currently pursuing bachelors in Elecrtical engineering but I am also interested to go into software field.
+                 I am currently getting myself prepare for the industry by taking up skills I would be needing in work. I am always open to accepting my flaws, 
+                 learning to overcome, and working towards almost perfection. <hr></p></div></div>
+        </div>
+
+    </section>
+
+    <section id="skills">
+        
+        <div class="container">
+            <div class="row"><div class="col title">Skills</div></div>
+            <div class="row"><div class="col skills-sub">Languages</div></div>
+            <div class="row"><div class="col d-flex">
+                <div class="skill-tabs"><p class="skill-text"><img src="./assets/images/logos/python.png" alt="python logo" class="skill-image"> Python</p></div>
+                <div class="skill-tabs"><p class="skill-text"><img src="./assets/images/logos/cpp.png" alt="cpp logo" class="skill-image"> C++</p></div>
+                <div class="skill-tabs"><p class="skill-text"><img src="./assets/images/logos/html.png" alt="html logo" class="skill-image"> HTML</p></div>
+                <div class="skill-tabs"><p class="skill-text"><img src="./assets/images/logos/css.png" alt="css logo" class="skill-image"> CSS</p></div></div>
+            </div>
+            <div class="row"><div class="col skills-sub">Tools and technologies</div></div>
+            <div class="row"><div class="col d-flex">
+                <div class="skill-tabs"><p class="skill-text"><img src="./assets/images/logos/matlab.png" alt="matlab logo" class="skill-image"> Matlab</p></div>
+                <div class="skill-tabs"><p class="skill-text"><img src="./assets/images/logos/solid-edge.png" alt="solid edge logo" class="skill-image"> Solid Edge</p></div>
+                <div class="skill-tabs"><p class="skill-text"><img src="./assets/images/logos/power-world.png" alt="power world logo" class="skill-image" style="border-radius: 2px;"> Power world</p></div>
+                <div class="skill-tabs"><p class="skill-text"><img src="./assets/images/logos/canva.png" alt="canva logo" class="skill-image"> Canva</p></div></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="projects">
+
+        <div class="container">
+            <div class="row"><div class="col title">Projects</div></div>
+            <div class="row"><div class="col sub-title">Core</div></div>
+            <div class="row">
+                <div class="col d-flex flex-column  align-items-center project-container"><img src="./assets/images/Independent Project.png" alt="rssi triangulation" class="project-image"><p class="project-title">Estimation of distance using Wifi signal strength by RSSI technology</p>
+                    <p class="project-description">An attempt to predict the loaction of a certain device by measuring the strength of Wifi signal from mutliple sources.</p>
+                </div>
+                <div class="col d-flex flex-column  align-items-center project-container"><img src="./assets/images/Embedded systems project.png" alt="ultrasonic sensors project" class="project-image"> <p class="project-title">Smart media control using ultrasonic sensors</p>
+                    <p class="project-description">Accesing the diffrent types of input from sensors using Arduino Uno and relaying it to python to mimic the funtions used for controlling a media playback</p>
+                </div>
+            </div>
+            <div class="row"><div class="col sub-title">Non-Core</div></div>
+            <div class="row">
+                <div class="col d-flex flex-column  align-items-center project-container"><img src="./assets/images/html-portfolio.png" alt="html portfolio" class="project-image-nc"><p class="project-title">Online resume</p>
+                    <p class="project-description">An simple resume website bulit using basic HTML, for practice of basic concepts.</p>
+                </div>
+                <div class="col d-flex flex-column  align-items-center project-container"><img src="./assets/images/tindog.png" alt="tindog website" class="project-image-nc"> <p class="project-title">TinDog</p>
+                    <p class="project-description">A simple website built using bootstap components matching pixel by pixel, for practice.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+        <div class="container">
+            <div class="row"><div class="col title">Contact Me</div></div>
+            <div class="row"><div class="col"><p class="contact-text">I would like to bulid projects to hone my skills and gain some valuable experience. Contact me from below</p></div></div>
+            <div class="row">
+                <div class="col contact-details"><img src="./assets/svgs/mail.svg" alt="mail logo"><p>pannamdamodaram@gmail.com</p></div>
+                <div class="col contact-details"><img src="./assets/svgs/call.svg" alt="mail logo" style="width:50px; height: 50px;"><p>+91-6305795997</p></div>
+            </div>
+            <div class="row">
+                <div class="d-flex justify-content-center links-row">
+                    <a href="https://www.instagram.com/damodaram_pannam/" target="_blank"><img src="./assets/svgs/instagram.svg" alt="instagram logo" style="width:50px; height:50px;"></a>
+                    <a href="https://github.com/damodaramPv" target="_blank"><img src="./assets/svgs/github.svg" alt="github logo" style="width:50px;"></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="px-3 pt-1 pb-3" >
+        <hr>
+        <div class="d-flex justify-content-between">
+            <div><p style="font-family: 'IBM Plex Mono', monospace;
+            font-size: 1rem; margin: 0;">© P V Damodaram</p></div>
+            <div class="d-flex gap-3" >
+                <a href="mailto: pannamdamodaram@gmail.com"><img src="./assets/svgs/gmailFooter.svg" alt="gmail logo" style="width:30px;"></a>
+                <a href="https://www.instagram.com/damodaram_pannam/" target="_blank"><img src="./assets/svgs/instagramFooter.svg" alt="instagram logo" style="width:30px;"></a>
+                <a href="https://github.com/damodaramPv" target="_blank"><img src="./assets/svgs/githubFooter.svg" alt="github logo" style="width:30px;"></a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

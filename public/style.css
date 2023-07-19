@@ -1,0 +1,147 @@
+body{
+    background-color: rgba(128, 128, 128, 0.038)
+}
+.profile-img{
+    width: 500px;
+    mix-blend-mode: multiply;
+}
+
+.title-line{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 3.5rem;
+    font-weight:bold;
+    color: #2F2172
+}
+
+.sub-line{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.75rem;
+    color: #2F2172
+}
+
+#hero{
+    background-color: #FFF1E5;
+}
+
+.title{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2.5rem;
+    font-weight:bold;
+    color: #2F2172
+}
+
+.education-list{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.about-text{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.my-photo{
+    width: 200px;
+    height: auto;
+    float: left;
+    border: 10px ridge #9097c8;
+    border-radius: 8px;
+    margin: 0 4% 0 0;
+}
+
+#about-me,#education,#projects,#contact,#skills{
+    background-color: rgba(128, 128, 128, 0.079);
+    box-shadow: 2px 2px 2px gray;
+    margin: 2%;
+    padding: 2%
+}
+
+.sub-title{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2rem;
+    font-weight:bold;
+    color: #2F2172
+}
+
+.project-image{
+    width: 300px;
+    height: 200px ;
+    margin: 2%;
+    border: 1px solid black;
+}
+
+.project-title{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2%;
+}
+
+.project-description{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.project-container{
+    margin: 1%;
+    box-shadow: 2px 2px 7px rgb(129, 125, 125);
+    background-color: rgba(226, 187, 160, 0.126);
+}
+
+.project-image-nc{
+    width:300px;
+    margin: 2%;
+    border: 1px solid black;
+}
+
+.contact-text{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.contact-details{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.links-row{
+    gap: 15%
+}
+
+footer{
+    background-color: #fff1e589;
+    box-shadow: 0 -2px 2px rgb(128, 128, 128);
+}
+
+.skills-sub{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.5rem;
+    font-weight:bold;
+    color: #2F2172
+}
+
+.skill-tabs{
+    background-color: rgba(240, 248, 255, 0.639);
+    border: solid 1px rgba(0, 0, 0, 0.209);
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 20%;
+    margin:2%;
+    padding:1%
+}
+
+.skill-text{
+    margin:0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:bold;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.skill-image{
+    width: 25px;
+    height: 25px;
+}

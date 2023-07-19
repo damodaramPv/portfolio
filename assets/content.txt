@@ -1,0 +1,60 @@
+Hero Section:
+
+Hi, I am Damodaram
+I am Student who likes to learn more...
+
+Resume:
+
+Education
+
+2018 - 2019 
+High School
+Narayana Olympiad High School
+BSEAP
+
+2019 - 2021
+Junior College
+Narayana Intermediate Junior College
+BIEAP
+
+2021 - Present
+Bachelor of Technology in Electrical Engineering - 3rd Year
+Indian Institute of Technology Bhilai
+
+Skills
+
+Languages
+Python, C++, HTML, CSS
+
+Tools and Technology
+Matlab, Solid Edge, Power World, Canva
+
+Projects:
+
+Core
+
+Estimation of distance using Wifi signal strength by RSSI technology
+An attempt to predict the loaction of a certain device by measuring the strength of Wifi signal from mutliple sources.
+
+Smart media control using ultrasonic sensors
+Accesing the diffrent types of input from sensors using Arduino Uno and relaying it to python to mimic the funtions used for controlling a media playback.
+
+Non-Core
+
+Online resume
+An simple resume website bulit using basic HTML, for practice of basic concepts.
+
+TinDog
+A simple website built using bootstap components pixel by pixel for practice.
+
+About me:
+
+I am currently pursuing bachelors in Elecrtical engineering but I am also interested to go into software field. I am currently getting myself prepare for the industry by taking up skills I would be needing in work. I am always open to accepting my flaws, learning to overcome, and working towards almost perfection.
+
+Contact me:
+
+I would like to bulid projects to hone my skills and gain some valuable experience. Contact me from below
+Email pannamdamodaram@gmail.com
+Mobile +91 6305795997
+Github https://github.com/damodaramPv
+Instagram https://www.instagram.com/damodaram_pannam/
